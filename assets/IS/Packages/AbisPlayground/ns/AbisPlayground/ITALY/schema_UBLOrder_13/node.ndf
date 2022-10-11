@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="schema" javaclass="com.wm.util.Values">
+    <value name="node_type">schema</value>
+    <value name="node_subtype">unknown</value>
+    <value name="node_nsName">AbisPlayground.ITALY:schema_UBLOrder_13</value>
+    <value name="node_pkg">AbisPlayground</value>
+    <value name="is_public">false</value>
+    <value name="contentType">3</value>
+    <value name="targetNamespace">http://uri.etsi.org/01903/v1.4.1#</value>
+    <record name="attributes" javaclass="com.wm.util.Values">
+      <list name="table">
+      </list>
+    </record>
+    <record name="elements" javaclass="com.wm.util.Values">
+      <list name="table">
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">TimeStampValidationData</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">reference</value>
+            <record name="targetName" javaclass="com.wm.util.Values">
+              <value name="xmlns">http://uri.etsi.org/01903/v1.4.1#</value>
+              <value name="ncName">ValidationDataType</value>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">ArchiveTimeStampV2</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">reference</value>
+            <record name="targetName" javaclass="com.wm.util.Values">
+              <value name="xmlns">http://uri.etsi.org/01903/v1.3.2#</value>
+              <value name="ncName">XAdESTimeStampType</value>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+      </list>
+    </record>
+    <record name="types" javaclass="com.wm.util.Values">
+      <list name="table">
+        <record javaclass="com.wm.util.Values">
+          <value name="contentType">2</value>
+          <value name="internalType">instance</value>
+          <value name="name">ValidationDataType</value>
+          <list name="elements">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="internalType">reference</value>
+              <record name="targetName" javaclass="com.wm.util.Values">
+                <value name="xmlns">http://uri.etsi.org/01903/v1.3.2#</value>
+                <value name="ncName">CertificateValues</value>
+              </record>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="internalType">reference</value>
+              <record name="targetName" javaclass="com.wm.util.Values">
+                <value name="xmlns">http://uri.etsi.org/01903/v1.3.2#</value>
+                <value name="ncName">RevocationValues</value>
+              </record>
+            </record>
+          </list>
+          <list name="attributes">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">attribute</value>
+              <value name="name">Id</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">ID</value>
+                  </record>
+                </array>
+              </record>
+              <value name="required">false</value>
+              <value name="internalType">instance</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">attribute</value>
+              <value name="name">UR</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">anyURI</value>
+                  </record>
+                </array>
+              </record>
+              <value name="required">false</value>
+              <value name="internalType">instance</value>
+            </record>
+          </list>
+          <record name="contentModel" javaclass="com.wm.util.Values">
+            <record name="symbol" javaclass="com.wm.util.Values">
+              <value name="ncName">$$SEQUENCE</value>
+            </record>
+            <value name="minOccurs">1</value>
+            <value name="maxOccurs">1</value>
+            <value name="modelType">sequence</value>
+            <list name="children">
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://uri.etsi.org/01903/v1.3.2#</value>
+                  <value name="ncName">CertificateValues</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://uri.etsi.org/01903/v1.3.2#</value>
+                  <value name="ncName">RevocationValues</value>
+                </record>
+                <value name="minOccurs">0</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+            </list>
+          </record>
+          <array name="parent-ancestors" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anyType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://uri.etsi.org/01903/v1.4.1#</value>
+              <value name="ncName">ValidationDataType</value>
+            </record>
+          </array>
+          <value name="classname">com.wm.lang.schema.WmComplexType</value>
+        </record>
+      </list>
+    </record>
+    <record name="uriReferencePrefixPairs" javaclass="com.wm.util.Values">
+      <value name="http://uri.etsi.org/01903/v1.3.2#">ns3</value>
+      <value name="urn:oasis:names:specification:ubl:schema:xsd:CommonSignatureComponents-2">ns2</value>
+      <value name="urn:un:unece:uncefact:data:specification:CoreComponentTypeSchemaModule:2">ccts-cct</value>
+      <value name="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">cac</value>
+      <value name="http://uri.etsi.org/01903/v1.4.1#">ns4</value>
+      <value name="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDataTypes-2">ns1</value>
+      <value name="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">ext</value>
+      <value name="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">cbc</value>
+      <value name="urn:oasis:names:specification:ubl:schema:xsd:Order-2">ns</value>
+      <value name="urn:oasis:names:specification:ubl:schema:xsd:UnqualifiedDataTypes-2">udt</value>
+      <value name="urn:oasis:names:specification:ubl:schema:xsd:SignatureBasicComponents-2">sbc</value>
+      <value name="urn:oasis:names:specification:ubl:schema:xsd:SignatureAggregateComponents-2">sac</value>
+      <value name="http://www.w3.org/2000/09/xmldsig#">ds</value>
+      <value name="http://www.w3.org/2001/XMLSchema">xsd</value>
+    </record>
+    <value name="originURI">http://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/maindoc/UBL-Order-2.1.xsd</value>
+    <value name="modifiable">false</value>
+  </record>
+</Values>

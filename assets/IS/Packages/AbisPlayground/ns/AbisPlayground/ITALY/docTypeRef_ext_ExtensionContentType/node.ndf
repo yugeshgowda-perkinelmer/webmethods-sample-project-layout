@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="record" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="node_nsName">AbisPlayground.ITALY:docTypeRef_ext_ExtensionContentType</value>
+    <value name="node_pkg">AbisPlayground</value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <value name="originURI">http://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/maindoc/UBL-Order-2.1.xsd</value>
+    <array name="rec_fields" type="record" depth="1">
+    </array>
+    <record name="schemaType" javaclass="com.wm.util.Values">
+      <value name="xmlns">urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2</value>
+      <value name="ncName">ExtensionContentType</value>
+    </record>
+    <value name="modifiable">false</value>
+  </record>
+</Values>

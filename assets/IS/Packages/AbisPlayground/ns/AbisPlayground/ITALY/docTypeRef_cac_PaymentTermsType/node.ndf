@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="record" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="node_nsName">AbisPlayground.ITALY:docTypeRef_cac_PaymentTermsType</value>
+    <value name="node_pkg">AbisPlayground</value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <value name="originURI">http://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/maindoc/UBL-Order-2.1.xsd</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">cbc:ID</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">AbisPlayground.ITALY:docTypeRef_cbc_IDType</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">cbc:PaymentMeansID</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">1</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="is_soap_array_encoding_used">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">AbisPlayground.ITALY:docTypeRef_cbc_PaymentMeansIDType</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">cbc:PrepaidPaymentReferenceID</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">AbisPlayground.ITALY:docTypeRef_cbc_PrepaidPaymentReferenceIDType</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">cbc:Note</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">1</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="is_soap_array_encoding_used">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">AbisPlayground.ITALY:docTypeRef_cbc_NoteType</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">cbc:ReferenceEventCode</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">AbisPlayground.ITALY:docTypeRef_cbc_ReferenceEventCodeType</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">cbc:SettlementDiscountPercent</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">AbisPlayground.ITALY:docTypeRef_cbc_SettlementDiscountPercentType</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">cbc:PenaltySurchargePercent</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">AbisPlayground.ITALY:docTypeRef_cbc_PenaltySurchargePercentType</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">cbc:PaymentPercent</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">AbisPlayground.ITALY:docTypeRef_cbc_PaymentPercentType</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">cbc:Amount</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">AbisPlayground.ITALY:docTypeRef_cbc_AmountType</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">cbc:SettlementDiscountAmount</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">AbisPlayground.ITALY:docTypeRef_cbc_SettlementDiscountAmountType</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">cbc:PenaltyAmount</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">AbisPlayground.ITALY:docTypeRef_cbc_PenaltyAmountType</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">cbc:PaymentTermsDetailsURI</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">AbisPlayground.ITALY:docTypeRef_cbc_PaymentTermsDetailsURIType</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">cbc:PaymentDueDate</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <record name="whiteSpace" javaclass="com.wm.util.Values">
+            <record name="FacetWSCValue" javaclass="com.wm.util.Values">
+              <value name="cDecimalValue">1</value>
+            </record>
+            <value name="facetFixed">true</value>
+          </record>
+          <value name="contentType">1</value>
+          <value name="internalType">instance</value>
+          <value name="ct_class">com.wm.lang.schema.datatypev2.gcType.WmDate</value>
+          <value name="name">date</value>
+          <array name="parent-ancestors" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anySimpleType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anyType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">date</value>
+            </record>
+          </array>
+          <record name="baseType" javaclass="com.wm.util.Values">
+            <value name="contentType">1</value>
+            <value name="internalType">instance</value>
+            <value name="ct_class">com.wm.lang.schema.datatypev2.gcType.WmDate</value>
+            <value name="dataTypeVersion">dtVersion2</value>
+          </record>
+          <value name="dataTypeVersion">dtVersion2</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">cbc:InstallmentDueDate</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <record name="whiteSpace" javaclass="com.wm.util.Values">
+            <record name="FacetWSCValue" javaclass="com.wm.util.Values">
+              <value name="cDecimalValue">1</value>
+            </record>
+            <value name="facetFixed">true</value>
+          </record>
+          <value name="contentType">1</value>
+          <value name="internalType">instance</value>
+          <value name="ct_class">com.wm.lang.schema.datatypev2.gcType.WmDate</value>
+          <value name="name">date</value>
+          <array name="parent-ancestors" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anySimpleType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anyType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">date</value>
+            </record>
+          </array>
+          <record name="baseType" javaclass="com.wm.util.Values">
+            <value name="contentType">1</value>
+            <value name="internalType">instance</value>
+            <value name="ct_class">com.wm.lang.schema.datatypev2.gcType.WmDate</value>
+            <value name="dataTypeVersion">dtVersion2</value>
+          </record>
+          <value name="dataTypeVersion">dtVersion2</value>
+        </record>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">cbc:InvoicingPartyReference</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">AbisPlayground.ITALY:docTypeRef_cbc_InvoicingPartyReferenceType</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">cac:SettlementPeriod</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">AbisPlayground.ITALY:docTypeRef_cac_PeriodType</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">cac:PenaltyPeriod</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">AbisPlayground.ITALY:docTypeRef_cac_PeriodType</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">cac:ExchangeRate</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">AbisPlayground.ITALY:docTypeRef_cac_ExchangeRateType</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">cac:ValidityPeriod</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">AbisPlayground.ITALY:docTypeRef_cac_PeriodType</value>
+      </record>
+    </array>
+    <record name="schemaType" javaclass="com.wm.util.Values">
+      <value name="xmlns">urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2</value>
+      <value name="ncName">PaymentTermsType</value>
+    </record>
+    <value name="modifiable">false</value>
+  </record>
+</Values>

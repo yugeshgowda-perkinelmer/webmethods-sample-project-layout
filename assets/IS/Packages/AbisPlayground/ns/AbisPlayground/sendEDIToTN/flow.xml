@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FLOW VERSION="3.0" CLEANUP="true">
+
+  <!-- nodes -->
+
+<MAP TIMEOUT="" MODE="STANDALONE">
+  <COMMENT></COMMENT>
+  <MAPTARGET>
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="wrapper_type">IData</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">edidata</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
+</MAPTARGET>
+  <MAPSOURCE>
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="wrapper_type">IData</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
+</MAPSOURCE>
+
+  <!-- nodes -->
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/edidata;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">ISA*00*          *00*          *08*043073964SRAT  *01*176835239T     *200817*1628*U*00401*000106193*0*T*^
+GS*PO*043073964SRA*176835239T*20200817*1628*106193*X*004010
+ST*850*061930001
+BEG*00*DS*4511647179**20200815
+CUR*BY*USD
+REF*KK*STANDARD
+REF*BAI*8000
+REF*AAT*80193491
+REF*BLT*INVOICE
+REF*VR*1
+PER*BD*PS Team***FX*610-728-2210*EM*ps_team@vwr.com
+N9*ZZ**REFERENCE NOTES
+MSG*This purchase order is subject to the terms and conditions located at
+MSG*http://www.vwr.com/suppliers/terms.html, and those terms are hereby
+MSG*incorporated by reference.
+N1*BT*VWR International*91*1100
+N3*PO Box 2158
+N4*Secaucus*NJ*07096*US
+N1*ST*YALE DIRECT DELIVERY*91*00000
+N2*SHIP TO ATTN TEST ORDER
+N3*55 PROSPECT ST*STREET2 FILLER
+N4*NEW HAVEN*CT*065118959*US
+N1*VN*PERKIN ELMER*91*1196
+REF*PO*1
+PO1*00001*1*EA*40.3*DI*VC*09904937*CB*45601-266***PL*000100
+PID*F**ZZ*C*SYRINGE BLUNT TIP MICRO 10UL
+PO4*1*1*EA
+REF*AAS*8356507026
+REF*PRT*2
+REF*LT*N
+DTM*002*20200819
+PO1*00002*1*EA*40.95*DI*VC*09904941*CB*97012-202***PL*000200
+PID*F**ZZ*C*SYRINGE BLUNT HAMIL 50 UL
+PO4*1*1*EA
+REF*AAS*8356507026
+REF*PRT*2
+REF*LT*N
+DTM*002*20200819
+PO1*00003*1*EA*36.4*DI*VC*09904823*CB*97012-200***PL*000300
+PID*F**ZZ*C*SYRINGE GC BLUNT HAMIL 25UL
+PO4*1*1*EA
+REF*AAS*8356507026
+REF*PRT*2
+REF*LT*N
+DTM*002*20200819
+CTT*3
+SE*45*061930001
+GE*1*106193
+IEA*1*000106193
+</value>
+  <record name="type" javaclass="com.wm.util.Values">
+    <value name="node_type">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_name">edidata</value>
+    <value name="field_type">string</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+  </record>
+</Values>
+</DATA>
+</MAPSET>
+</MAP>
+
+<INVOKE TIMEOUT="" SERVICE="wm.tn.doc.xml:routeXml" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAP MODE="INPUT">
+</MAP>
+</INVOKE>
+</FLOW>
